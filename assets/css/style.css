@@ -3,6 +3,13 @@ body {
   color: #46602f;
 }
 
+.nunito-font {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
 .corner-img img {
   height: 500px;
   max-width: 400px;

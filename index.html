@@ -4,11 +4,12 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <link rel="shortcut icon" href="/assets/img/ico/sherry03_square.ico" type="image/x-icon">
+ <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
  <link rel="stylesheet" href="/assets/css/style.css">
  <title>Pie Thyme
  </title>
 </head>
-<body>
+<body class="nunito-font">
 
 
 
@@ -31,8 +32,9 @@
    <hr>
    <div class="display" id="nums_curr"> Curr numbers </div>
    <div id="buttons">
-     <button class="button" id="btn_next"> Next</button>
-     <button class="button" id="btn_un-show"> Un-show</button>
+     <button onclick="nextSet()" class="button" id="btn_next" title="Move on to the next grouping of numbers"> Next</button>
+     <button onclick="unShow()" class="button" id="btn_un-show" title="hides the current set until clicked again"> Un-show</button>
+     <button onclick="clearAll()" class="button" id="btn_clear" title="return to the first set, or start from the top again"> Restart</button>
    </div>
 
   </div>
@@ -40,6 +42,6 @@
  </div>
 
 
-
+<script src="/assets/js/scripts.js"></script>
 </body>
 </html>

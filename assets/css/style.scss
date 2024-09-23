@@ -1,3 +1,78 @@
+$color_rose : #fecad5;
+$color_rose_dark: #92636d;
+$color_rose_icey : #fbdfe59d;
+$color_sherry_lips: #aa3148;
+
+$black: #46602f;
+$black_lighter: #6b7d4a;
+$black_darker: #36541c;
+
+
 body {
  background-image: url("../img/bg/pink0.jpg");
+ color: $black;
+
 }
+
+.corner-img img {
+  height: 500px;
+  max-width: 400px;
+  position: absolute;
+  z-index: -5;
+}
+
+ 
+h1 {
+ color: $color_sherry_lips;
+
+}
+
+
+#main {
+ border: 2px $black_lighter solid;
+ background-color: $color_rose_icey;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ height: 400px;
+ width: 550px;
+ padding: 5px;
+}
+
+.display {
+ height: 160px;
+}
+
+#nums_curr {
+ color: $black_darker;
+ font-size: xx-large;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+
+#buttons {
+ //background-color: aqua;
+ width: 33vw;
+
+ padding: 10px 60px;
+ display: flex;
+ justify-content: space-evenly;
+ 
+}
+.button {
+  background-color: $color_sherry_lips;
+  
+  color: $color_rose;
+  font-weight: 600;
+  width: 80px;
+  height: 30px;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+ }

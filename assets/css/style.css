@@ -1,3 +1,58 @@
 body {
   background-image: url("../img/bg/pink0.jpg");
+  color: #46602f;
+}
+
+.corner-img img {
+  height: 500px;
+  max-width: 400px;
+  position: absolute;
+  z-index: -5;
+}
+
+h1 {
+  color: #aa3148;
+}
+
+#main {
+  border: 2px #6b7d4a solid;
+  background-color: rgba(251, 223, 229, 0.6156862745);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  width: 550px;
+  padding: 5px;
+}
+
+.display {
+  height: 160px;
+}
+
+#nums_curr {
+  color: #36541c;
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#buttons {
+  width: 33vw;
+  padding: 10px 60px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button {
+  background-color: #aa3148;
+  color: #fecad5;
+  font-weight: 600;
+  width: 80px;
+  height: 30px;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */

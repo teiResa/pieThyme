@@ -17,6 +17,10 @@ Now, we need it to move on to the next one every time the "next" button is click
 
 I think this would use .length for something like for(i=0; i)
 
+I thought innerText to show it in the currNums, but that's for later to add it to the pastNums. I need textContent for now?
+
+
+
 
 */
 
@@ -28,10 +32,11 @@ function nextSet() {
 
 for (let i = 0; i < grHundred.length; i++) {
  console.log(grHundred[i]);
+
+ currNums.textContent = grHundred[i]
+ //okay, this is really, close, but it prints the last set. It absolutely does them all but just doesn't stop at the prior indexes of the array. .forEach?
+ 
 }
-
-console.log(grHundred[1])
-
 }
 
 /* 

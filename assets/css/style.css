@@ -1,3 +1,9 @@
+/*
+
+On successful completion, confetti drop with thyme (and little pies?)
+
+
+*/
 body {
   background-image: url("../img/bg/pink0.jpg");
   color: #46602f;
@@ -40,6 +46,7 @@ h1 {
 #nums_curr {
   color: #36541c;
   font-size: xx-large;
+  font-size: 6rem;
   display: flex;
   justify-content: center;
   align-items: center;

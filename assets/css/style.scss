@@ -7,6 +7,13 @@ $black: #46602f;
 $black_lighter: #6b7d4a;
 $black_darker: #36541c;
 
+/*
+
+On successful completion, confetti drop with thyme (and little pies?)
+
+
+*/
+
 
 body {
  background-image: url("../img/bg/pink0.jpg");
@@ -54,6 +61,7 @@ h1 {
 #nums_curr {
  color: $black_darker;
  font-size: xx-large;
+ font-size: 6rem;
  display: flex;
  justify-content: center;
  align-items: center;
